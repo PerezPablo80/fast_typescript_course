@@ -1,0 +1,21 @@
+{
+	"name": "express-typescript",
+	"version": "1.0.0",
+	"description": "testing typescript with express",
+	"main": "index.js",
+	"scripts": {
+		"start": "tsc -b && node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"ts-node-dev": "^2.0.0",
+		"typescript": "^5.6.3"
+	},
+	"dependencies": {
+		"@types/express": "^5.0.0",
+		"@types/node": "^22.7.6",
+		"express": "^4.21.1"
+	}
+}
